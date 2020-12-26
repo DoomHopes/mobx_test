@@ -42,8 +42,8 @@ class DiceView extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   child: Observer(
-                    builder: (_) =>
-                        Image.asset('images/dice${diceCounter.left}.png'),
+                    builder: (_) => Image.asset(
+                        'assets/images/dice${diceCounter.left}.png'),
                   ),
                   onPressed: diceCounter.roll,
                 ),
@@ -51,8 +51,8 @@ class DiceView extends StatelessWidget {
               Expanded(
                 child: FlatButton(
                   child: Observer(
-                    builder: (_) =>
-                        Image.asset('images/dice${diceCounter.right}.png'),
+                    builder: (_) => Image.asset(
+                        'assets/images/dice${diceCounter.right}.png'),
                   ),
                   onPressed: diceCounter.roll,
                 ),
