@@ -31,7 +31,6 @@ class DiceView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final diceCounter = Provider.of<DiceCounter>(context);
-    //final diceCounter = DiceCounter();
 
     return Center(
       child: Column(
